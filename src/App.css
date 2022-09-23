@@ -1,3 +1,4 @@
+
 .app {
   background: #0e081a;
   position: relative;
@@ -28,7 +29,8 @@
   color: #fff;
   margin: auto;
   margin-top: 7vh;
-  margin-left: 15%;
+  margin-left: 10%;
+  font-family: "VT323";
 }
 
 .banner-cont h1 {

@@ -7,7 +7,9 @@ import Timer from './components/Timer'
 import Footer from './components/Footer'
 import BitCoin from './components/Bitcoin';
 import Header from './components/Header';
-import GLOBE from 'vanta/dist/vanta.globe.min'
+import NET from 'vanta/dist/vanta.net.min'
+
+import "@fontsource/vt323";
 // import gcpLogo from './logo_googleCloud.png'
 
 function App() {
@@ -16,15 +18,14 @@ function App() {
 
   useEffect(() => {
     if (!vantaEffect) {
-      setVantaEffect(GLOBE({
+      setVantaEffect(NET({
         el: reference.current,
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
         minHeight: 200.00,
         minWidth: 200.00,
-        color: 0x0b9444,
-        color3: 0xffffff,
+        color: 0x20C20E,
         backgroundColor: 0x0e081a
       }))
     }
@@ -39,13 +40,13 @@ function App() {
       <div className="actual-text">
         <Header/>
         <div className="banner-cont">
-          <h1>niteCTF</h1>
+          <h1>niteCTF 2022</h1>
         </div>
         <div className="content-cont">
           <div className="content">
             <p>niteCTF is a jeopardy style CTF for students interested in cybersecurity. niteCTF is designed to help students explore newer domains in cybersecurity as well as help existing professionals practise their skills. We will feature challenges which cover various domains of cybersecurity including cryptography, reversing, forensics, web exploitation, pwn and more!
             </p>
-            <p>We will realease the registration forms soon!</p>
+            <p>We will release the registration forms soon!</p>
             {/* <p>1st place - 8000 INR<br/>2nd place - 5000 INR<br/>3rd place - 3000 INR</p> */}
             <p><h3><Timer/> to go!</h3></p>
             {/* <p><small>Infra sponsored by <a href="https://g.co/cloud"><img className="content-google-cloud-logo" src={gcpLogo} alt="Google Cloud"></img></a></small></p> */}
