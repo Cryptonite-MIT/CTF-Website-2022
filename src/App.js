@@ -48,7 +48,7 @@ function App() {
             </p>
             <p>We will release the registration forms soon!</p>
             {/* <p>1st place - 8000 INR<br/>2nd place - 5000 INR<br/>3rd place - 3000 INR</p> */}
-            <p><h3><Timer/> to go!</h3></p>
+            <p><h3><Timer/> </h3></p>
             {/* <p><small>Infra sponsored by <a href="https://g.co/cloud"><img className="content-google-cloud-logo" src={gcpLogo} alt="Google Cloud"></img></a></small></p> */}
             <p>
               {/* <a href="https://discord.gg/thTagHkyWB" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDiscord}/></a>&nbsp; */}
