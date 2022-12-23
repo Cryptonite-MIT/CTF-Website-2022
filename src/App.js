@@ -52,8 +52,8 @@ function App() {
             {/* <p><small>Infra sponsored by <a href="https://g.co/cloud"><img className="content-google-cloud-logo" src={gcpLogo} alt="Google Cloud"></img></a></small></p> */}
             <p>
               <a href="https://discord.gg/G2T2yWzK" class="discord-button">Join Our Discord</a>&nbsp;
-              <a href="https://nite-trial12022.el.r.appspot.com/login" class="event-button">Event Page</a> <br />&nbsp;
-              <br />&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://nite-trial12022.el.r.appspot.com/login" class="event-button">Event Page</a> <br></br>&nbsp;
+              <br></br> &nbsp; &nbsp;
               {/* <a href="https://discord.gg/thTagHkyWB" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDiscord}/></a>&nbsp; */}
               <a href="https://www.facebook.com/cryptonitemanipal/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook}/></a>&nbsp;
               <a href="https://www.instagram.com/cryptonite_mit/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram}/></a>&nbsp;
